@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'login',
     'encrypted_fields'
+    'todo'
 ]
 
 
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'serv_dev.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '3.86.94.13',
+        'HOST': '18.207.0.206',
         'NAME': 'serv_dev',
         'USER': 'root',
         'PASSWORD': 'admin123!',
