@@ -5,6 +5,9 @@ from rest_framework.response import Response
 from datetime import datetime
 # Create your views here.
 
+class Todo(APIView):
+    def get(self,request):
+        return render(request, 'todo/todo.html')
 class TaskCreate(APIView):
     def post(self,request):
         user_id = request.data.get('user_id', "")
