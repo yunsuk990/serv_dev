@@ -13,7 +13,4 @@ class LoginUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = LoginUser
-
-    fields = ('user_id', 'user_pw', 'birth_day', 'gender'), 'email' , 'name', 'age')
-
-
+        fields = ('user_id', 'user_pw', 'birth_day', 'gender', 'email', 'name', 'age')

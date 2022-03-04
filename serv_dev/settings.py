@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'login',
-    'encrypted_fields'
+    'encrypted_fields',
     'todo'
 ]
 
